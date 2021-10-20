@@ -18,12 +18,12 @@ For table A
         "effectiveDate": "2021-03-23",
         "rates": [
             {
-                "currency": "bat (Tajlandia)",
+                "currency": "Thai baht",
                 "code": "THB",
                 "mid": 0.1251
             },
             {
-                "currency": "dolar amerykański",
+                "currency": "United State dollar",
                 "code": "USD",
                 "mid": 3.8746
             },
@@ -42,12 +42,12 @@ for table B
         "effectiveDate": "2021-03-17",
         "rates": [
             {
-                "currency": "afgani (Afganistan)",
+                "currency": "afgani (Afghanistan)",
                 "code": "AFN",
                 "mid": 0.049458
             },
             {
-                "currency": "ariary (Madagaskar)",
+                "currency": "ariary (Madagascar)",
                 "code": "MGA",
                 "mid": 0.00102
             },
@@ -72,19 +72,19 @@ and for table C
         "effectiveDate": "2021-03-24",
         "rates": [
             {
-                "currency": "dolar amerykański",
+                "currency": "United state dollar",
                 "code": "USD",
                 "bid": 3.8507,
                 "ask": 3.9285
             },
             {
-                "currency": "dolar australijski",
+                "currency": "Australian dollar",
                 "code": "AUD",
                 "bid": 2.9574,
                 "ask": 3.0172
             },
             {
-                "currency": "dolar kanadyjski",
+                "currency": "Canadian dollar",
                 "code": "CAD",
                 "bid": 3.0657,
                 "ask": 3.1277
@@ -96,7 +96,7 @@ and for table C
 ```
 ## What we want you to do
 1. Take a look at the code and try to refactor it as good as you can. Point out everything that seem odd to you : names, empty lines literally whatever.
-2. You're provided with the class `CurrencyWallet`. Inside this class you can only find an Integer `budget`. Please implement all the necessary things in the class in order to be albe to perform following task
+2. You're provided with the class `CurrencyWallet`. Inside this class you can only find an Integer `budget`. Please implement all the necessary things in the class to be able to perform following task
     * Create endpoint which with given budget tries to buy one currency for each continent. For example : 
         * Europe - Euro[EUR]
         * Asia - Thai baht[TBH]

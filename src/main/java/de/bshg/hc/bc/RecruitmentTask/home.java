@@ -19,10 +19,10 @@ public class home {
     }
 
     @GetMapping(value = "/rate", produces = "application/json")
-    ResponseEntity<String> pobierzWartosciKursuDlaWalut(
-            @RequestParam(name = "waluta", defaultValue = "eur") String waluta
+    ResponseEntity<String> FETCH(
+            @RequestParam(name = "CURRENCY", defaultValue = "eur") String CURRENCY
     ){
-        return restClient.getCurrencyRate("a", waluta);
+        return restClient.getCurrencyRate("a", CURRENCY);
     }
 
 }
